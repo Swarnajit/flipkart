@@ -1,6 +1,7 @@
 package tests;
  
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
@@ -12,14 +13,15 @@ public class NewTest {
  
   @Test
   public void openMyBlog() {
- driver.get("https://www.softwaretestingmaterial.com/");
+ driver.get("https://www.amazon.com/");
+ System.out.println(driver.getTitle());
   }
   
   @BeforeClass
   public void beforeClass() {
    
-   System.setProperty("webdriver.gecko.driver", "D:\\Selenium\\Drivers\\geckodriver.exe");
-   driver = new FirefoxDriver();
+   System.setProperty("webdriver.chrome.driver", "G:/Eclipse Works/chromedriver.exe");
+   driver = new ChromeDriver();
    
   }
  
