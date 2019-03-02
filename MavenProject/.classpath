@@ -22,7 +22,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
@@ -45,5 +45,9 @@
 	<classpathentry kind="lib" path="E:/libs/httpcore-4.4.9.jar"/>
 	<classpathentry kind="lib" path="E:/libs/okhttp-3.10.0.jar"/>
 	<classpathentry kind="lib" path="E:/libs/okio-1.14.1.jar"/>
+	<classpathentry kind="lib" path="E:/eclipse/plugins/org.testng_6.13.1.r201712040515.jar"/>
+	<classpathentry kind="lib" path="E:/eclipse/plugins/com.beust.jcommander.source_1.72.0.jar"/>
+	<classpathentry kind="lib" path="E:/eclipse/plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar"/>
+	<classpathentry kind="lib" path="E:/eclipse/plugins/org.yaml.snakeyaml_1.17.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
